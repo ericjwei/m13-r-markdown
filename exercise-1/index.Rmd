@@ -11,7 +11,11 @@ library(dplyr)
 library(httr)
 
 # Store a variable "movie"
+<<<<<<< HEAD
 movie <- 'Iron Man'
+=======
+movie <- 'Almost Famous'
+>>>>>>> 1bc2ba01ba1f64c07fc03eb9f01987105294acbc
 # Write a function that allows you to specify a movie, then does the following:
 GetReview <- function(movie) {
   
